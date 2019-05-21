@@ -21,7 +21,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-var slackBotId=' string
+var slackBotId string
 var slackBotToken string
 var slackTipReaction string
 var slackTipAmount string
