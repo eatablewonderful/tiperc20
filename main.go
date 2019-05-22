@@ -24,9 +24,9 @@ import (
 var slackBotId string
 var slackBotToken string
 var slackTipReaction="tip" string
-var slackTipAmount="100" string
+var slackTipAmount="100000" string
 var tokenAddress="0x0BA7846EfbDa22e8dE9C6d225EDE295510CEdb4E" string
-var ethApiEndpoint="https://ropsten.infura.io/a1e55b9084034d9181177a75e1badfea" string
+var ethApiEndpoint="https://ropsten.infura.io/v3/a1e55b9084034d9181177a75e1badfea" string
 var ethKeyJson="{address:8d0cb63a00f8130faa634986f16981e7fd9cde2b,Crypto:{ciphertext:ce1b209d1a7a248b9f7acb5070c2b467783394312366df609f87833b509bdfff,cipherparams:{iv:612e29c76777145f7336a3160cc53dfb},cipher:aes-128-ctr,kdf:scrypt,kdfparams:{dklen:32,salt:de036f90fe2632308e4d4b944b25f570960830189850659c68efb00f1deb8267,n:8192,r:8,p:1},mac:fdbcb7099f69217a9696560457ae1bf466269720da8df55a983ab4028d643f67},id:025135e4-6def-4b58-8b62-e8b730b4c9ba,version:3}" string
 var ethPassword="qwerty500" string
 
