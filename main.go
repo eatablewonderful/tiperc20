@@ -27,7 +27,27 @@ var slackTipReaction="tip" string
 var slackTipAmount="100000" string
 var tokenAddress="0x0BA7846EfbDa22e8dE9C6d225EDE295510CEdb4E" string
 var ethApiEndpoint="https://ropsten.infura.io/v3/a1e55b9084034d9181177a75e1badfea" string
-var ethKeyJson="{address:8d0cb63a00f8130faa634986f16981e7fd9cde2b,Crypto:{ciphertext:ce1b209d1a7a248b9f7acb5070c2b467783394312366df609f87833b509bdfff,cipherparams:{iv:612e29c76777145f7336a3160cc53dfb},cipher:aes-128-ctr,kdf:scrypt,kdfparams:{dklen:32,salt:de036f90fe2632308e4d4b944b25f570960830189850659c68efb00f1deb8267,n:8192,r:8,p:1},mac:fdbcb7099f69217a9696560457ae1bf466269720da8df55a983ab4028d643f67},id:025135e4-6def-4b58-8b62-e8b730b4c9ba,version:3}" string
+var ethKeyJson="{
+	"version": 3,
+	"id": "a7d7728d-be90-425a-a929-7d6fa92cef01",
+	"address": "69c73153269242bea1e06a51577686ebdfff6dd2",
+	"crypto": {
+		"ciphertext": "c7e02f2d9efe111ddcd174264ae1f7ff042a5ce638212291f940b0fb77c3f948",
+		"cipherparams": {
+			"iv": "c1c6004d28c66f7c913bd8679a8395e7"
+		},
+		"cipher": "aes-128-ctr",
+		"kdf": "scrypt",
+		"kdfparams": {
+			"dklen": 32,
+			"salt": "f2b09dd74a7ec33c2dfb4fb5538ecbac3be3abfe7c815a928e157decf5f76ef9",
+			"n": 8192,
+			"r": 8,
+			"p": 1
+		},
+		"mac": "0eef98dcd9a72df7eb86d26c0f42f3ce275c9edc2090aaa5ac791953c19157d4"
+	}
+}" string
 var ethPassword="qwerty500" string
 
 var httpdPort int
