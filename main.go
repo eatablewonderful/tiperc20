@@ -22,7 +22,7 @@ import (
 )
 
 var slackBotId string
-var slackBotToken string
+var slackBotToken="xoxb-299129691062-642252207445-8V4iTnzvwK6DWaEKIWJP6Ry3" string
 var slackTipReaction="tip" string
 var slackTipAmount="100000" string
 var tokenAddress="0x0BA7846EfbDa22e8dE9C6d225EDE295510CEdb4E" string
@@ -48,7 +48,7 @@ var ethKeyJson="{
 		"mac": "0eef98dcd9a72df7eb86d26c0f42f3ce275c9edc2090aaa5ac791953c19157d4"
 	}
 }" string
-var ethPassword="qwerty500" string
+var ethPassword="Qwerty@500123" string
 
 var httpdPort int
 
