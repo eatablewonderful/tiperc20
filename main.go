@@ -27,7 +27,7 @@ var slackTipReaction string
 var slackTipAmount string
 var tokenAddress string
 var ethApiEndpoint string
-var ethKeyJson string
+var ethKey string
 var ethPassword string
 
 var httpdPort int
@@ -40,7 +40,7 @@ func init() {
 	slackTipAmount = os.Getenv("SLACK_TIP_AMOUNT")
 	tokenAddress = os.Getenv("ERC20_TOKEN_ADDRESS")
 	ethApiEndpoint = os.Getenv("ETH_API_ENDPOINT")
-	ethKeyJson = os.Getenv("ETH_KEY_JSON")
+	ethKey = os.Getenv("ETH_KEY")
 	ethPassword = os.Getenv("ETH_PASSWORD")
 
 	flag.IntVar(&httpdPort, "port", 20020, "port number")
@@ -179,7 +179,7 @@ func sendTokenTo(address string) (tx *types.Transaction, err error) {
 		return
 	}
 
-	auth, err := bind.NewTransactor(strings.NewReader(ethKeyJson), ethPassword)
+	auth, err := bind.NewKeyedTransactor(ethKey)
 	if err != nil {
 		log.Printf("Failed to create authorized transactor: %v", err)
 		return
