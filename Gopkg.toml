@@ -24,6 +24,12 @@
 #   go-tests = true
 #   unused-packages = true
 
+[metadata.heroku]
+  root-package = "https://github.com/eatablewonderful/tiperc20/tree/master"
+  go-version = "go1.9.1"
+  install = [ ".", "./cmd/..." ]
+  ensure = "true"
+
 
 [[constraint]]
   name = "github.com/ethereum/go-ethereum"
