@@ -25,7 +25,7 @@
 #   unused-packages = true
 
 [metadata.heroku]
-  root-package = "https://github.com/eatablewonderful/tiperc20/tree/master"
+  root-package = "github.com/eatablewonderful/tiperc20/tree/master"
   go-version = "go1.9.1"
   install = [ ".", "./cmd/..." ]
   ensure = "true"
